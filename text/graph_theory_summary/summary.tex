@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+\def\be{\begin{equation*}}
+\def\ee{\end{equation*}}
+
+\title{Useful Network Theory??}
+\author{Brent Follin}
+\begin{document}
+\maketitle
+
+\section{Problem Summary} % it's ok for it to not take any arguments
+The general scope of the problem is network complexity in the internet of things (IoT). In particular, I'm looking to investigave how complex a system one can develop before the IoT starts to `fail', a concept that will take some definition later. 
+\subsection{definitions}
+The IoT consists of a set of connected devices $d_{i} \in \left\{D \right\}$ that each can be in one of a multiplicity of states $s^\alpha_i \in \left\{1, ..., m_i\right\}$, such that the total state space of the IoT is 
+\be
+M \equiv \prod_i m_i,
+\ee
+e.g. the state $S^\alpha$ of the IoT ranges in labels from $\left\{1, ..., M\right\}$.
+
+The interesting thing is interactions between systems. A particular example is \textit{if-then interactions}, where if some element $d_i$ is in state $s^\alpha_i$ then some other element $d_j$ changes from inital state $s^\alpha_j$ to $s^\beta_j$
+
+\section{} % It can also take an argument
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
+praesentium voluptatum deleniti atque corrupti quos dolores et quas 
+molestias excepturi sint occaecati cupiditate non provident, similique sunt in 
+culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et 
+harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum 
+soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
+placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+ Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus 
+saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. 
+Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis 
+voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+\end{document}
